@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int binarysearch(int arr[], int n, int key)
+int binarysearch(int arr[], int n, int key) //works only for sorted array or monotonic -- non decreasing non increasing
 {
     int start = 0;
     int end = n - 1;
