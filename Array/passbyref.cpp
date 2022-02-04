@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void printArray(int arr[]){
+void printArray(int arr[]){ //int * arr --same here 
     cout <<endl<< sizeof(arr);
 }
 int main(){
